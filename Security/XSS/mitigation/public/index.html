@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="http://unsecure.com/abc.js"></script>
+    <script nonce="randomkey">
+      console.log("My trusted code!");
+    </script>
+    <script>
+      console.log("My untrusted code!");
+    </script>
+  </head>
+  <body>
+    <h2>Page for CORS demo</h2>
+    <img
+      src="https://media.licdn.com/dms/image/D5635AQE74c1z8yVE1A/profile-framedphoto-shrink_400_400/0/1710245299596?e=1714165200&v=beta&t=1QMdQLspo8-Z_SNYzZCgtqwghkL8U7LSoSc6m1qrY-c"
+      alt=""
+    />
+  </body>
+</html>
